@@ -1,0 +1,76 @@
+body {
+  background-color: blueviolet;
+}
+.formdata {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 35%;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+.register {
+  font-size: 30px;
+  text-align: center;
+  color: blueviolet;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+form {
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+label {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+input {
+  border: 0px;
+  border-bottom: 1px solid purple;
+  width: 250px;
+  padding: 0px 20px 0px 20px;
+  box-sizing: border-box;
+}
+::placeholder {
+  text-align: left;
+  letter-spacing: 1px;
+}
+#select1 {
+  background-color: blueviolet;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 80px;
+  box-sizing: border-box;
+}
+.send {
+  background-color: blueviolet;
+  height: 30px;
+  margin-top: 7px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  text-align: center;
+}
+a {
+  color: rgb(5, 39, 113);
+}
+img {
+  height: 30px;
+  width: 28px;
+}
+span {
+  padding-left: 25px;
+}
+.social {
+  padding-left: 50px;
+}

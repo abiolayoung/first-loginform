@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formdata</title>
+    <style>
+        ul {
+            list-style: square inside none;
+        }
+        .list2 {
+            list-style: none inside url(./twittericon.PNG);
+        }
+        a:hover {
+            color: blueviolet;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 400px 400px 400px;
+            grid-auto-rows: 30px;
+        }
+        .div1 {
+            background-color: aqua;
+            text-align: center;
+            margin-right: 20px;
+            margin-left: 70px;
+            padding-top: 4px;
+            font-weight: bold;
+        }
+        .div2 {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            margin-right: 20px;
+            padding-top: 4px;
+            font-weight: bold;
+        }
+        .div3 {
+            background-color: yellowgreen;
+            text-align: center;
+            padding-top: 4px;
+            font-weight: bold;
+        }
+        .gridcontainer {
+            display:flex;
+            column-gap: 10px;
+            margin-top: 10px;
+        }
+        .gapping {
+            height: 200px;
+            background-color: aqua;
+            text-align: center;
+            flex: 1;
+        }
+        a:hover {
+            background-color: blue;
+            color: yellow;
+            text-decoration: none;
+        }
+        table {
+            width: 100%;
+        }
+        table, td, th {
+            border: 2px solid gray;
+            text-align: center;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+        th {
+            background-color: aqua;
+        }
+        tr:nth-child(odd) {
+            background-color: brown;
+        }
+        .flex {
+            display: flex;
+        }
+        article {
+            flex: 2;
+        }
+
+        /*styling on mobile devices*/
+        @media (max-width: 768px){
+            .gridcontainer (
+                flex-direction: column;
+            )
+        }
+            </style>
+</head>
+<body>
+    <p>this is where form should be submitted <p>
+        <ul>
+            <li>mango</li>
+            <li>orange</li>
+            <li>apple</li>
+            <li>pineapple</li>
+            <li>grapes</li>
+        </ul>
+        <p>List item 2</p>
+        <ul class="list2">
+            <li>mango</li>
+            <li>orange</li>
+            <li>apple</li>
+            <li>pineapple</li>
+            <li>grapes</li>
+        </ul>
+        <a href="https://google.zoom.us/google/oauth/client_login?token=kvFNUhGkGh1xmSQYMJcQQM5hDoKcwAtLEeKtJHG4eWHM1c0p8XvvIAmQzXxY4r2aiFH1KACMMJO6X4VRclRtMHLpDgltHTH6k24qtH-Bi0gOTQcEswJ8pdXttzGOBavUrsu9spmlSKYW2m9E12s4jOCyEjLJAevUjdPtVn4RDO3KJuMwSxJSrF0C3ksNUNIfWhnxHT5TN19Ic0EQW0zAkX6oNgEIO8gf1NPMm7s0XYfE9cSFuP08d3SSBDErycki5J7gd0Mq2Xm3IMDbgN0j2pKuv2n-ONPFW-ECOjFxxmXpi_9CpF4uCrh_XyS2-t7klyVQ0BXn-oULc4LHwmMiOZGjmjQ_aqwrdHZsBZ014ThQH3dayMgJdbZL11SHo8fg7uuEDoLFPRGoFuZlaMDxIUDsGbX2QTSsa3Ew4lVVxuWxFSscV26qpr-zHouKVQxDP-c7nhCU75RPKMCFn0b--WQ4qUbn4FDoqJIvvt-r8TmaP_VBArQ.HfBTheRiDTBvzevJ&st=IYBZVNXRQx6tJ71BcMieVA&code=4%2F0AfJohXmYvxK6jO4pjCyobVvEyVviimupnlmZVvIrphZi9fj5PiHRcemNjAHxm8XNFTyKGg&scope=email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20openid&code_challenge=VQTW9XWTbQZAXPqu3y%2BX0uzzaMioEC0sKn7uczLoOjI%3D&ver=5.16.2.22807&mode=token2&_x_zm_rtaid=1AXoe65KR_uV-FbflPANCQ.1696504621378.4419083053aeb6aa3ea59a8cb91d5b16&_x_zm_rhtaid=728">Click me</a>
+        <section class="grid">
+            <div class="div1">HTML</div>
+            <div class="div2">CSS</div>
+            <div class="div3">JAVASCRIPT</div>
+        </section>
+
+        <section class="gridcontainer">
+        <div class="gapping">one</div>
+        <div class="gapping">two</div>
+        <div class="gapping">three</div>
+    </section>
+    <section class="flex">
+        <article>First section</article>
+        <article>Second section</article>
+        <article>Third section</article>
+      </section>
+    <section>
+        <table>
+        <tr>
+            <th>Day</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>8-8:30</td>
+            <td>Learn</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9-10</td>
+            <td></td>
+            <td>Practice</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>1-1:30</td>
+            <td></td>
+            <td></td>
+            <td> Play</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3-3:45</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Code</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>6-7</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Discuss</td>
+        </tr>
+        </table>
+    </section>
+</body>
+</body>
+</html>
